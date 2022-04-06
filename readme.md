@@ -34,8 +34,10 @@ To train the model, I've used the DecisionTreeClassifier() **and** RandomForestC
 Our model is already trained.
 If you want to predict if a you just have to call their row under the predict function. You can do as such:
 
+```
 row_to_predict = *write down the row # here*
 print(dtree.predict(X.iloc[[row_to_predict]]))
+```
 
 ## Libraries Used
 
